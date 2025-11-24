@@ -2,27 +2,17 @@
 
 A comprehensive real-time analytics and strategy tool for the GR Cup Series that provides driver insights, performance analysis, racing line optimization, and pit stop strategy recommendations.
 
+![alt text](main_dashboard.png)
+
 ## Features
 
-### 🏁 Real-Time Analytics Dashboard
-- Live telemetry visualization (speed, throttle, braking, acceleration)
-- Lap time analysis and trends
-- Driver performance metrics
-- Consistency tracking
-
-### 🚗 Driver Training & Insights
-- Racing line analysis with GPS visualization
-- Optimal line recommendations
-- Sector-by-sector performance breakdown
-- Improvement suggestions based on telemetry data
-
-### 🎯 Strategy Calculator
+### Strategy Calculator
 - Pit stop window optimization
 - Tire degradation modeling
 - Multi-strategy comparison
 - Time gain/loss calculations
 
-### 📊 Post-Event Analysis
+### Post-Event Analysis
 - Race insights and key moments
 - Driver comparison tools
 - Leaderboard visualization
@@ -76,6 +66,12 @@ toyota/
 - Python 3.9+
 - Node.js 18+
 - npm or yarn
+
+### Quick setup and running
+
+```bash
+./start.sh
+```
 
 ### Backend Setup
 
@@ -159,36 +155,13 @@ The frontend will be available at `http://localhost:3000`
 
 ## Data Sources
 
+Dataset: https://trddev.com/hackathon-2025/barber-motorsports-park.zip
+
 The application uses race datasets from the `barber/` folder:
 - Telemetry data (speed, throttle, braking, GPS)
 - Lap time records
 - Race results
 - Best lap analysis
-
-## Judging Criteria Alignment
-
-### Application of TRD Datasets ✅
-- Comprehensive use of telemetry, lap times, and race results
-- Unique racing line analysis using GPS data
-- Multi-dimensional driver comparison
-
-### Design ✅
-- Modern, intuitive UI with dark theme
-- Responsive design for all screen sizes
-- Balanced frontend/backend architecture
-- Real-time data visualization
-
-### Potential Impact ✅
-- Helps drivers identify improvement areas
-- Enables data-driven strategy decisions
-- Supports team performance optimization
-- Applicable beyond GR Cup to other racing series
-
-### Quality of the Idea ✅
-- Combines multiple categories (Real-Time Analytics + Driver Training)
-- Novel racing line optimization using GPS
-- Intelligent pit stop strategy calculator
-- Comprehensive post-race analysis
 
 ## Future Enhancements
 
@@ -202,4 +175,4 @@ The application uses race datasets from the `barber/` folder:
 ## License
 
 This project is developed for the Toyota Racing Development Hackathon.
-
+MIT license
